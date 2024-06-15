@@ -3,8 +3,8 @@ from flask_cors import CORS
 import openai
 
 api="AIzaSyBFNxi3NMTKlO_FSneMBWPe5vOXzmXd4gs"
-openai.api_key = "pk-MzATQIcWDTIRTnUUxCtxiJNrOaOckEPbKbfeCSPpXmtoXXsP"
-openai.api_base = "https://api.pawan.krd/pai-001-light-beta/v1"
+openai.api_key = ""
+openai.api_base = "https://api.pawan.krd/pai-001-light-beta/v"
 app = Flask(__name__)
 CORS(app)
 
