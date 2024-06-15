@@ -1,0 +1,15 @@
+<div className="col-sm-4">
+                    <h3>AI & Machine Learning</h3>
+                    <p>Get the most out of your data with our AI and Machine Learning solutions.</p>
+                    <img src={l} height='350px' width='300px' className='rounded'/>
+                </div>
+                <div className="col-sm-4">
+                    <h3>Personalised Locator</h3>
+                    <p>Get your current location data with our GPS tracker</p>
+                    <img src={l} height='350px' width='300px' className='rounded'/>
+                </div>
+                <div className="col-sm-4">
+                    <h3>Messenger</h3>
+                    <p>Get chat with our friends and family with our messenger</p>
+                      <img src={l} height='350px' width='300px' className='rounded'/>
+                </div>

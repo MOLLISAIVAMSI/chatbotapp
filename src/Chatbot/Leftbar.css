@@ -1,0 +1,133 @@
+.leftbar{
+    background-color: black;
+    position: fixed;
+    height: 100vh;
+    color: purple;
+    width: 20rem;
+    overflow:hidden;
+    z-index: 2;
+}
+img{
+    vertical-align: baseline;
+}
+.logoblock{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newchat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.newchatbutton{
+    background-color: purple;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    height: 3rem;
+    padding: 1px 2rem;
+    width: 90%;
+    border-radius: 5px;
+}
+.newchatbutton:hover{
+    background-color: #642bff;
+    cursor: pointer;
+}
+img{
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+.leftsidebar-tail{
+    position: fixed;
+    bottom: 0;
+    left: 30px;
+    width: 14rem;
+}
+.closebtn{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 2rem;
+}
+.leftsidebar-tail ul{
+    text-align: left;
+    list-style-type: none;
+}
+.leftsidebar-tail ul li{
+    padding: 10px 20px;
+    width: 100%;
+}
+.leftsidebar-tail ul li:hover{
+    background-color: #212121;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 30px;
+}
+.linkanchor{
+    padding: 30px;
+    text-decoration: none;
+    color: purple;
+}
+.leftsidebar-body{
+    margin-top: 40px;
+    overflow-y: scroll;
+    height: 200px;
+}
+.leftsidebar-body::-webkit-scrollbar{
+    background: linear-gradient(#642bff,#ff22e6);
+    border-radius: 30px;
+}
+.anchor{
+    text-decoration: none;
+    color: purple;
+}
+.leftsidebar-body ul{
+    list-style-type: none;
+    padding: 0;
+}
+.leftsidebar-body ul li{
+    padding: 10px;
+    border-radius: 5px;
+    border:2px solid purple;
+    margin: 10px;
+}
+.searches li:hover{
+    background-color: lightcyan;
+    cursor: pointer;
+}
+.searches li a{
+    padding-left: 15px;
+}
+
+@media screen and (max-width: 400px){
+    .leftbar{
+        width: 80%;
+    }
+    .leftsidebar-tail{
+        left: 0;
+    }  
+}
+@media screen and (max-width: 300px){
+    .leftsidebar-tail{
+        position: fixed;
+        left: -10px;
+    }    
+    .newchatbutton{
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 270px){
+    .leftsidebar-tail{
+        position: fixed;
+        left: -20px;
+    }    
+}
+@media screen and (max-width: 240px){
+    .leftsidebar-tail{
+        position: fixed;
+        left: -30px;
+    }    
+}

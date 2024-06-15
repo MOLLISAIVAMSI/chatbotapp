@@ -1,0 +1,42 @@
+.Contact{
+    background-color: black;
+    color: white;
+}
+.col2 p{
+    font-size: 26px;
+}
+.col2 button{
+    background-color: purple;
+    color: #000;
+    border: 1px solid oldlace;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+}
+.col3 p{
+    font-size: 24px;
+}
+.col3 label{
+    font-size: 24px;
+}
+.col3 input{
+    width: 300px;
+    border-radius: 5px;
+    border-color: rgb(221, 220, 216);
+    background-color: black;
+}
+.col3 textarea{
+    border-radius: 5px;
+    width: 300px;
+    border-color: rgb(221, 220, 216);
+    background-color: black;
+}
+.col3 button{
+    background-color: purple;
+    color: #000;
+    border: 1px solid oldlace;
+    border-radius: 3px;
+    width: 100px;
+    height: 40px;
+}
+
