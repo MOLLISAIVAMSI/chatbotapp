@@ -2,7 +2,7 @@ from flask import Flask, jsonify, request
 from flask_cors import CORS
 import openai
 
-api="AIzaSyBFNxi3NMTKlO_FSneMBWPe5vOXzmXd4gs"
+api=""
 openai.api_key = ""
 openai.api_base = "https://api.pawan.krd/pai-001-light-beta/v"
 app = Flask(__name__)
