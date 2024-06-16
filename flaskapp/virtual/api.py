@@ -4,7 +4,7 @@ import openai
 
 api=""
 openai.api_key = ""
-openai.api_base = "https://api.pawan.krd/pai-001-light-beta/v"
+openai.api_base = ""
 app = Flask(__name__)
 CORS(app)
 
